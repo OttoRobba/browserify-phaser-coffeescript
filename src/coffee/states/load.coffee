@@ -17,7 +17,7 @@ module.exports =
 
   preload: ->
     @loadingLabel()
-  
-  #Add here all the assets that you need to game.load
+    #Add here all the assets that you need to game.load
+
   create: ->
     game.state.start "menu"
